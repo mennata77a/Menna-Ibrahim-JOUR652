@@ -11,11 +11,14 @@ BODY {
 
 /* Banner name at the top */
 
-h1{
+#name{
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
-  color: #33485e;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto
 }
 
 /* Title under my name */
@@ -28,34 +31,42 @@ strong{
 
 /* For section titles */
 
-h2{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0
 }
 
 /* For job titles */
 
-h3{
+.jobtitle{
   font-size: 1.5em;
   font-weight: 600;
 }
 
 /* For job organization titles */
 
-h4{
-  font-size: 1.5em;
+.organization{
+  font-size: 1.25em;
   font-weight: 400;
 }
 
 /* For job dates */
 
-h5{
+.date{
   font-size: 1em;
   font-style: italic;
   font-weight: 400;
+  margin-top: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 /* For all the lists, including contact info, skills, and education */
