@@ -9,6 +9,8 @@ BODY {
   font-weight: 400;
 }
 
+/* This is the section I struggled the most with because I mistyped the id element in the index.html */
+
 #container{
   width:100%;
   max-width:1200px;
@@ -24,7 +26,7 @@ BODY {
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 /* Title under my name */
@@ -48,7 +50,7 @@ strong{
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
-  margin-left: 0
+  margin-left: 0;
 }
 
 /* For job titles */
@@ -92,7 +94,8 @@ ul{
   font-size: 1em;
 }
 
-/* COME BACK TO THIS */
+/* COME BACK TO THIS IF YOU'RE STILL STRUGGLING AT THE END */
+/* UPDATE: Not struggling anymore! */
 
 .menu{
   margin: 0;
