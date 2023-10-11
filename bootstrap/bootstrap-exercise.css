@@ -38,6 +38,10 @@ h3{
   padding-bottom: 50px;
 }
 
+.img{
+  padding: 20px;
+}
+
 @media only screen and (max-width:500px){
   h2{
     padding-top: 50px;
