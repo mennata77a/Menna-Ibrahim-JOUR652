@@ -1,5 +1,71 @@
+#masthead{
+  font-family: "Russo One";
+  height:2em;
+  background-color: #E03A3E;
+  padding-top: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+
+body{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
 #content{
-  width: 100%;
-  max-width: 900px
+  width: 900px;
   margin: 0 auto;
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+}
+
+.byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+h2{
+  font-size: 12px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+blockquote{
+font: 18px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: #E03A3E;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}
+
+.image-container{
+  text-align: center;
+}
+
+.image-container img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-container p{
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 11px;
+  margin: 5px 0;
+}
+
+.readmore{
+  font-family: Helvetica, sans-serif;
+  color: #E03A3E;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
