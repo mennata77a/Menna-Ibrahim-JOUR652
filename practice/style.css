@@ -1,0 +1,135 @@
+/* Styles for My Resume*/
+
+/* Covers the entire body */
+
+BODY {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444
+  font-weight: 400;
+}
+
+/* This is the section I struggled the most with because I mistyped the id element in the index.html */
+
+#container{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+/* Banner name at the top */
+
+#name{
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/* Title under my name */
+
+/* This is the function I didn't change to div */
+
+strong{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #33485e;
+}
+
+/* For section titles */
+
+.sectionheader{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* For job titles */
+
+.jobtitle{
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* For job organization titles */
+
+.organization{
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+/* For job dates */
+
+.date{
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+  margin-top:2px;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:0;
+}
+
+/* For all paragraphs I added a class description element */
+
+.description{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:0;
+  margin-right:0;
+}
+
+/* For all the lists, including contact info, skills, and education */
+
+ul{
+  font-size: 1em;
+}
+
+/* COME BACK TO THIS IF YOU'RE STILL STRUGGLING AT THE END */
+/* UPDATE: Not struggling anymore! */
+
+.menu{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline;
+}
+
+#degrees{
+  margin-top: 5px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+}
+
+#title{
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
+}
