@@ -1,12 +1,13 @@
 /* 1. Base Styles */
 
 BODY {
-  font-family: 'PT Serif', serif;
+  font-family: georgia, serif;
 }
 
 
 .container {
   text-align:center;
+  width: 1000px;
 }
 
 
@@ -19,9 +20,9 @@ BODY {
 .overlay {
   position: absolute;
   width:100%;
-  top: 20%;
-  background:#000;
-  opacity:.7;
+  top: 30%;
+  background:#0e0000;
+  opacity:.85;
 }
 
 .hero-image{
@@ -30,41 +31,44 @@ BODY {
 
 .hero-hed{
   padding-top:10px;
-  margin:0 auto;
-  font-size:6em;
-  font-family: 'Playfair Display', serif;
   padding-bottom:10px;
+  margin:0 auto;
+  font-size:5em;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
   color:#fff;
 }
 
 
 .hero-sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
   font-size:.25em;
-}
-
-/* Tophat */
-.nav-logo {
-  color:#fff;
-  margin:0 auto;
-  font-weight: 700;
-  text-transform: uppercase;
+  padding-bottom:10px;
 }
 
 .red {
-    color: #F23030;
+  color: #F23030;
 }
 
-.footer {
-  background: #000;
-  min-height: 100px;
+.footer{
+  background: #0e0000;
+  color: white;
+  font-size: .75em;
+  min-height: 75px;
   margin-top:100px;
+}
+
+.footer-text{
+  padding-top: 25px;
+  text-align: center;
 }
 
 /* 2. Navigation bar */
 
 .bg-dark {
-  background:#000 !important;
+  background:#0e0000 !important;
 }
 
 .navbar-brand {
@@ -80,40 +84,13 @@ BODY {
 }
 
 
-/* 2. Text styles */
+/* 3. Text styles */
 
-p{
-  text-align: left;
-  line-height: 180%;
-  font-size: 1.25em;
-  font-family: 'Playfair Display', serif;
-}
-
-
-.intro-text {
-  font-size:1.75em;
-  max-width:800px;
-  margin:0 auto;
-  padding-top:50px;
-  padding-bottom:50px;
-}
-
-.dropcap {
-  color: #F23030;
-  float: left;
+.headline{
   font-size: 4em;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
   font-weight: 700;
-}
-
-
-.hed {
-  font-size:4em;
-  font-family: 'Playfair Display', serif;
-  line-height:130%;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
 }
 
 
@@ -122,17 +99,27 @@ p{
   text-transform:uppercase;
   margin-top:-10px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+}
 
+p{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200px;
+  line-height: 180%;
+  font-size: 1.25em;
 }
 
 .chapter-head {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Philosopher', sans-serif;
   color: #F23030;
   font-size:2em;
   padding-top:20px;
   text-transform:uppercase;
 }
-
 
 .caption {
   width:100%;
@@ -162,12 +149,15 @@ p{
 
 
 .quote {
-  font-family: 'Montserrat', sans-serif;
-  color: #F23030;
+  font-family: 'Philosopher', sans-serif;
+  color: #0e0000;
   font-size:3em;
   font-weight:700;
   text-align: left;
-  padding: 15px 0 15px 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  padding-left: 50px;
+  padding-right: 0;
   border-top:1px solid #000;
   border-bottom:1px solid #000;
   margin-top:20px;
@@ -179,8 +169,11 @@ p{
   font-size:.5em;
   font-family: 'Montserrat', sans-serif;
   font-weight:100;
+  font-style: italic;
   text-align:left;
-  color:#000;
+  color:#0e0000;
+  margin-bottom:20px;
+  padding-bottom: 10px;
 }
 
 
@@ -188,15 +181,16 @@ p{
   background-color: #fff;
   width: 80%;
   margin: 0 auto;
-  border: solid #F23030 1px;
+  border: solid #F23030 2px;
   margin-top:25px;
   margin-bottom:25px;
 
 }
 
 .text-box-title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Philosopher', sans-serif;
   font-size: 1.25em;
+  font-weight: bold;
   text-align: center;
   color:	white;
   background: #F23030;;
@@ -208,15 +202,18 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   text-align: left;
-  color:#303030;
+  color:#0e0000;
 }
 
 .text-box-intro-text{
   padding-left: 1em;
   padding-right: 1em;
   font-family: 'Montserrat', sans-serif;
+  font-style: italic;
   font-size: 1em;
   text-align: left;
+  color: #0e0000;
+  margin-bottom: -5px;
 }
 
 .text-box-source-text{
@@ -225,12 +222,12 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-size: .8em;
   text-align: left;
-  color:#303030;
+  color:#0e0000;
 }
 
 .graphic {
   border-top:1px solid #cdcdcd;
-  border-bottom:1px solid #cdcdcd;
+  border-bottom:2px solid #cdcdcd;
   margin-top:35px;
   margin-bottom:35px;
 }
