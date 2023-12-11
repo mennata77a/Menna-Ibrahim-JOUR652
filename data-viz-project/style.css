@@ -13,7 +13,7 @@ body {
 
 
 .hero-container {
-  position: absolute;
+  position: relative;
   text-align: center;
   color: white;
 }
@@ -225,31 +225,9 @@ p{
     width: 100%;
   }
 
-  .overlay{
-    max-width: 768px;
-  }
-
-  body{
-    margin: 0;
-    padding: 0;
-    }
-
-  img{
-    max-width: 100%;
-    height: auto;
-  }
-
-  .navbar{
-    display: block;
-    text-align: center;
-  }
-
-  p{
-    padding: 10px;
-  }
-
-  .container{
-    padding: 10px;
+body{
+  margin: 0;
+  padding: 0;
   }
 
   .chapter-head {
@@ -281,9 +259,6 @@ p{
   .hero-hed {
     font-size:3em;
   }
-  .overlay{
-    max-width: 991px;
-  }
 }
 
 /* Small Desktops */
@@ -291,21 +266,12 @@ p{
   .hero-hed {
     font-size:3em;
   }
-  .caption {
-    padding-left: 20px;
-  }
-  .overlay{
-    max-width: 1199px;
-  }
 }
 
 /* Large Desktops (large desktops, 1200px and up) */
 @media screen (min-width: 1200px) {
   .hero-hed {
     font-size:5em;
-  }
-  .overlay{
-    max-width: 100%;
   }
 }
 
