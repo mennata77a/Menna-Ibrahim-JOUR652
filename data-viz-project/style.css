@@ -219,9 +219,10 @@ p{
 /* RESPONSIVE */
 
 /* Small devices (mobile phones, browser less than 768px) */
-@media(max-width: 768px){
+@media (max-width: 768px){
   .hero-hed {
     font-size:1.5em;
+    width: 100%;
   }
 
   p {
@@ -243,7 +244,7 @@ p{
 
   .hero-text{
     font-size:2em;
-    top:50%;
+    top:100%;
   }
 
   .quote {
