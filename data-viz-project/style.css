@@ -13,7 +13,7 @@ body {
 
 
 .hero-container {
-  position: relative;
+  position: absolute;
   text-align: center;
   color: white;
 }
@@ -225,6 +225,10 @@ p{
     width: 100%;
   }
 
+  .overlay{
+    max-width: 768px;
+  }
+
   body{
     margin: 0;
     padding: 0;
@@ -277,6 +281,9 @@ p{
   .hero-hed {
     font-size:3em;
   }
+  .overlay{
+    max-width: 991px;
+  }
 }
 
 /* Small Desktops */
@@ -284,12 +291,21 @@ p{
   .hero-hed {
     font-size:3em;
   }
+  .caption {
+    padding-left: 20px;
+  }
+  .overlay{
+    max-width: 1199px;
+  }
 }
 
 /* Large Desktops (large desktops, 1200px and up) */
 @media screen (min-width: 1200px) {
   .hero-hed {
     font-size:5em;
+  }
+  .overlay{
+    max-width: 100%;
   }
 }
 
