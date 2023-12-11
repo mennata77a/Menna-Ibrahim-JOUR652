@@ -1,7 +1,7 @@
 /* 1. Base Styles */
 
-BODY {
-  font-family: Poppins, sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
   background-color: #fffefc;
 }
 
@@ -219,15 +219,33 @@ p{
 /* RESPONSIVE */
 
 /* Small devices (mobile phones, browser less than 768px) */
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
   .hero-container {
     font-size:1.5em;
     width: 100%;
   }
 
-  p {
-    padding-left:20px;
-    padding-right:10px;
+  body{
+    margin: 0;
+    padding: 0;
+    }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar{
+    display: block;
+    text-align: center;
+  }
+
+  p{
+    padding: 10px;
+  }
+
+  .container{
+    padding: 10px;
   }
 
   .chapter-head {
@@ -255,21 +273,21 @@ p{
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media(min-width: 768px) and (max-width: 991px){
+@media screen (min-width: 768px) and (max-width: 991px){
   .hero-hed {
     font-size:3em;
   }
 }
 
 /* Small Desktops */
-@media(min-width: 992px) and (max-width: 1199px) {
+@media screen (min-width: 992px) and (max-width: 1199px) {
   .hero-hed {
     font-size:3em;
   }
 }
 
 /* Large Desktops (large desktops, 1200px and up) */
-@media(min-width: 1200px) {
+@media screen (min-width: 1200px) {
   .hero-hed {
     font-size:5em;
   }
