@@ -1,0 +1,321 @@
+/* 1. Base Styles */
+
+BODY {
+  font-family: Poppins, sans-serif;
+  background-color: #fffefc;
+}
+
+
+.container {
+  text-align:center;
+  width: 1000px;
+}
+
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  width:100%;
+  top: 20%;
+  opacity:1;
+}
+
+.hero-image{
+  position: sticky;
+    width: 100%;
+}
+
+.hero-hed{
+  padding-top:10px;
+  padding-bottom:10px;
+  margin:0 auto;
+  font-size:5em;
+  font-family: 'Newsreader', serif;
+  font-style: italic;
+  color:#fff;
+  max-width: 40ch;
+  transform: scale(0.94);
+  animation: 1s linear move-background;
+  animation-duration: auto;
+}
+
+
+.hero-sub {
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size:.25em;
+  padding-bottom:10px;
+}
+
+.red {
+  color: #d1630d;
+}
+
+.footer{
+  background: #0d0101;
+  color: white;
+  font-size: .75em;
+  min-height: 75px;
+  margin-top:100px;
+}
+
+.footer-text{
+  padding-top: 25px;
+  text-align: center;
+}
+
+/* 2. Navigation bar */
+
+.bg-dark {
+  background:#0d0101 !important;
+}
+
+.navbar-brand {
+  margin:0 auto;
+  font-family: Poppins, sans-serif;
+  font-weight:700;
+  font-size:.9em;
+  text-transform:uppercase;
+}
+
+.navbar {
+  height:30px;
+}
+
+
+/* 3. Text styles */
+
+.headline{
+  font-size: 3em;
+  font-weight: 500;
+  color: white;
+  font-family: 'Newsreader', serif;
+  text-align: center;
+  border-right: 7px solid #d1630d;
+  border-left: 7px solid #d1630d;
+  padding: 50px;
+  background-color: #0d0101;
+}
+
+.byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:30px;
+  padding-bottom: -10;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #0d0101;
+}
+
+.opener{
+  font-size:1.75em;
+  max-width:800px;
+  margin:0 auto;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.dropcap{
+  color: #d1630d;
+  float: left;
+  font-size: 4em;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 700;
+}
+
+p{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200px;
+  line-height: 180%;
+  font-size: 1.25em;
+}
+
+.chapter-head {
+  font-family: 'Newsreader', serif;
+  font-weight: bolder;
+  color: #d1630d;
+  font-size:2em;
+  padding-top:20px;
+  text-transform:uppercase;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top: 10px;
+  padding-bottom:20px;
+  font-weight: light;
+  font-family: 'Poppins', sans-serif;
+  font-size:.85em;
+  color: #0d0101;
+  opacity: 0.6;
+}
+
+
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  color: #fff
+}
+
+/* ELEMENTS */
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  height:100%;
+  border-bottom: 5px solid #d1630d;
+}
+
+
+.quote {
+  font-family: 'Newsreader', serif;
+  color: #0d0101;
+  font-size:3em;
+  font-weight:900;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 0;
+  padding-left: 50px;
+  padding-right: 0;
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+
+.quote-attribution {
+  font-size:.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight:100;
+  font-style: italic;
+  text-align:left;
+  color:#0d0101;
+  margin-bottom:20px;
+  padding-bottom: 10px;
+}
+
+.graphic {
+  border-top:2px solid #cdcdcd;
+  border-bottom:2px solid #cdcdcd;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+
+/* RESPONSIVE */
+
+/* Small devices (mobile phones, browser less than 768px) */
+@media(max-width: 768px){
+  .hero-hed {
+    font-size:1.5em;
+  }
+
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+  .opener {
+    font-size:1.25em;
+  }
+
+  .hed {
+    font-size:2em;
+  }
+
+  .hero-text{
+    font-size:2em;
+    top:50%;
+  }
+
+  .quote {
+    display:none;
+    font-size:1em;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px) and (max-width: 991px){
+  .hero-hed {
+    font-size:3em;
+  }
+}
+
+/* Small Desktops */
+@media(min-width: 992px) and (max-width: 1199px) {
+  .hero-hed {
+    font-size:3em;
+  }
+}
+
+/* Large Desktops (large desktops, 1200px and up) */
+@media(min-width: 1200px) {
+  .hero-hed {
+    font-size:5em;
+  }
+}
+
+/* HERO HED ANIMATION */
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move-background {
+  from {
+    background-position: 50% 0%;
+  }
+  to {
+    background-position: 50% 100%;
+  }
+}
+
+.hero-hed-animation{
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.hero-hed-animation:nth-child(1) {
+  animation: fade-in 0.4s 0.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.hero-hed-animation:nth-child(2) {
+  animation: fade-in 0.4s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.hero-hed-animation:nth-child(3) {
+  animation: fade-in 0.4s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.hero-hed-animation:nth-child(4) {
+  animation: fade-in 0.4s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
