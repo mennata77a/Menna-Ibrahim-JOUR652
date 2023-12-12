@@ -27,7 +27,7 @@ body {
 
 .hero-image{
   position: sticky;
-    width: 100%;
+  width: 100%;
 }
 
 .hero-hed{
@@ -220,12 +220,12 @@ p{
 
 /* Small devices (mobile phones, browser less than 768px) */
 @media screen and (max-width: 768px){
-  .hero-container {
-    font-size:1.5em;
+  .hero-hed {
+    font-size:2.5em;
     width: 100%;
   }
 
-body{
+  body{
   margin: 0;
   padding: 0;
   }
@@ -234,44 +234,39 @@ body{
     font-size:1.25em;
   }
 
+  .overlay{
+    top:100%;
+  }
+
   .opener {
     font-size:1.25em;
   }
 
-  .hed {
-    font-size:2em;
-  }
-
-  .hero-text{
-    font-size:2em;
-    top:100%;
-  }
-
   .quote {
     display:none;
-    font-size:1em;
+    font-size:2em;
   }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px){
   .hero-hed {
-    font-size:3em;
+    font-size:4em;
   }
 }
 
 /* Small Desktops */
-@media screen (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-hed {
-    font-size:3em;
+    font-size:5em;
   }
 }
 
 /* Large Desktops (large desktops, 1200px and up) */
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .hero-hed {
-    font-size:5em;
+    font-size:7em;
   }
 }
 
